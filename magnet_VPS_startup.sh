@@ -1,6 +1,6 @@
 #!/bin/bash
-WALLET_URL="https://magnetwork.io/Wallets/magnet-qt-1710.tar.gz"
-WALLET_ARCH="magnet-qt-1710.tar.gz"
+WALLET_URL="https://magnetwork.io/Wallets/magnet-qt-1804.tar.gz"
+WALLET_ARCH="magnet-qt-1804.tar.gz"
 BOOTSTRAP_URL="https://magnetwork.io/Wallets/bootstrap.zip"
 BOOTSTRAP_FILE="bootstrap.zip"
 WALLET_DESKTOP="/root/Desktop"
@@ -16,13 +16,15 @@ function prepare_swap() {
 		mkswap /swapfile
 		swapon /swapfile
 		echo "/swapfile none swap sw 0 0" >> /etc/fstab
+		echo 'vm.swappiness=10' | tee -a /etc/sysctl.conf
+		echo 'vm.vfs_cache_pressure=50' | tee -a /etc/sysctl.conf
 		printf "Swap with 2GB created\n" > /dev/tty1
 	fi
 }
 
 function update_system() {
-	apt-get -y update
-	apt-get -y upgrade
+	sudo apt-get -y update
+	sudo DEBIAN_FRONTEND=noninteractive apt-get -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" upgrade
 }
 
 function install_prerequisits() {
@@ -153,35 +155,6 @@ addnode=45.77.214.85:17177
 addnode=45.77.208.101:17177
 addnode=144.202.87.162:17177
 addnode=217.163.23.170:17177
-addnode=35.199.85.169:17177
-addnode=35.198.223.207:17177
-addnode=35.194.87.150:17177
-addnode=35.189.4.137:17177
-addnode=35.185.121.119:17177
-addnode=35.200.21.250:17177
-addnode=35.205.55.1:17177
-addnode=35.189.66.131:17177
-addnode=35.198.116.135:17177
-addnode=35.199.118.191:17177
-addnode=35.200.190.45:17177
-addnode=35.189.37.6:17177
-addnode=35.189.97.133:17177
-addnode=35.203.183.136:17177
-addnode=35.195.167.40:17177
-addnode=35.199.188.194:17177
-addnode=104.196.155.39:17177
-addnode=35.197.228.109:17177
-addnode=35.198.35.45:17177
-addnode=35.197.145.93:17177
-addnode=35.199.1.114:17177
-addnode=35.201.4.254:17177
-addnode=35.188.240.39:17177
-addnode=35.199.48.8:17177
-addnode=146.148.79.31:17177
-addnode=104.196.202.240:17177
-addnode=35.195.122.245:17177
-addnode=35.198.82.29:17177
-addnode=35.200.247.198:17177
 EOL
 }
 

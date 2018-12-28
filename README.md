@@ -12,18 +12,17 @@ When using this script you will end up beeing able to run the `magnet QT wallet`
 
 ## Installation
 
-You can either use a startup script on Vultr or create your VPS instance first and then download the script provided in this github\
-execute it - to install everything needed.\
+You can either use a startup script on Vultr or create your VPS instance first and then download the script provided in this github execute it - to install everything needed.\
 
 The steps below will show how to create it using a startup script.
 
 ### Add Startup Script
 
-Click on (1) - Add Startup Script
+Click on **(1)** - Add Startup Script
 
 ![Vultr StartUp Script01](https://github.com/temp69/magnet-VPS/blob/master/images/Vultr%20StartUp%20Script01.jpg)
 
-Name it and add the content from [here](https://raw.githubusercontent.com/temp69/magnet-VPS/master/magnet_VPS_startup.sh) into the (2) script box.
+Name it and add the content from **[here](https://raw.githubusercontent.com/temp69/magnet-VPS/master/magnet_VPS_startup.sh)** into the **(2)** script box.
 
 ![Vultr StartUp Script02](https://github.com/temp69/magnet-VPS/blob/master/images/Vultr%20StartUp%20Script02.jpg)
 
@@ -47,8 +46,7 @@ Once it finishes it will greet you with a graphical login interface.
 
 ### Loggin in
 
-Due to the fact that the Vultr console is using a different keyboard layout then the one you are used to, I have enabled a onboard keyboard which\
-can be accessed by pressing **<F3>**
+Due to the fact that the Vultr console is using a different keyboard layout then the one you are used to, I have enabled a onboard keyboard which can be accessed by pressing **<F3>**
 
 ```diff
 - I RECOMMEND ALWAYS USING THE ONBOARD KEYBOARD OR YOU MIGHT END UP NOT BEEING ABLE TO LOG IN

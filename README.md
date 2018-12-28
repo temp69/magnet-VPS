@@ -3,7 +3,7 @@
 > Startup script for Vultr VPS, hosting magnet QT wallet.
 
 When using this script you will end up beeing able to run the `magnet QT wallet` inside of the console window of Vultr!
-![Vultr Console](https://picture.png)
+![Vultr Console](https://github.com/temp69/magnet-VPS/blob/master/images/Vultr%20Console.jpg)
 
 ## Features
 
@@ -21,18 +21,18 @@ The steps below will show how to create it using a startup script.
 
 Click on (1) - Add Startup Script
 
-![Vultr StartUp Script01](https://picture.png)
+![Vultr StartUp Script01](https://github.com/temp69/magnet-VPS/blob/master/images/Vultr%20StartUp%20Script01.jpg)
 
 Name it and add the content from [here](https://raw.githubusercontent.com/temp69/magnet-VPS/master/magnet_VPS_startup.sh) into the (2) script box.
 
-![Vultr StartUp Script02](https://picture.png)
+![Vultr StartUp Script02](https://github.com/temp69/magnet-VPS/blob/master/images/Vultr%20StartUp%20Script02.jpg)
 
 ### Deploy a new Server
 
 - Choose a location
 - Ubuntu 18.04 x64
 - 3.50$ will work
-- Additional Features enable IPv6
+- Additional Features - Enable IPv6
 - Startup Script - Choose the one you just added
 - Enter a host name and deploy it
 
@@ -40,7 +40,8 @@ Name it and add the content from [here](https://raw.githubusercontent.com/temp69
 
 You can view the installation process, which can take ~ 10 minutes in the **Console view**
 
-![Vultr Installation process](https://picture.png)
+![Vultr Installation process01](https://github.com/temp69/magnet-VPS/blob/master/images/Vultr%20Installation%20process01.jpg)
+![Vultr Installation process02](https://github.com/temp69/magnet-VPS/blob/master/images/Vultr%20Installation%20process02.jpg)
 
 Once it finishes it will greet you with a graphical login interface.
 
@@ -50,15 +51,18 @@ Due to the fact that the Vultr console is using a different keyboard layout then
 can be accessed by pressing **<F3>**
 
 ```diff
-I RECOMMEND ALWAYS USING THE ONBOARD KEYBOARD OR YOU MIGHT END UP NOT BEEING ABLE TO LOG IN
-ALSO USE IT WHEN ENCRYPTING THE WALLET!!!
+- I RECOMMEND ALWAYS USING THE ONBOARD KEYBOARD OR YOU MIGHT END UP NOT BEEING ABLE TO LOG IN
+- ALSO USE IT WHEN ENCRYPTING THE WALLET!!!
 ```
-![Vultr Loggin In](https://picture.png)
+![Vultr Loggin In](https://github.com/temp69/magnet-VPS/blob/master/images/Vultr%20Loggin%20In.jpg)
 
 Once logged in the only thing left todo is click the magnet start icon on the top left of the screen.
 
 ### Additional Information
 
 - You can not use Copy & Paste from your local computer into the console\
-You can use a copy paste server from the internet todo so, I installed Firefox on the box as well.
+You can use a copy paste service from the internet eg.: pastebin
 
+- Browser (Firefox) / File Manager / Terminal / Onboard keyboard / Text Editor can be found in the **Start menu**
+
+- Hidden files / folders (e.g.: `.mag` folder) can be turned on in File Manager's Option menu

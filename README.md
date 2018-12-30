@@ -35,16 +35,17 @@ Name it and add the content from **[here](https://raw.githubusercontent.com/temp
 - Startup Script - Choose the one you just added
 - Enter a host name and deploy it
 
+![Vultr Deploy Server](https://github.com/temp69/magnet-VPS/blob/master/images/CreateServerInstance.gif)
+
 ### Installation process
 
-You can view the installation process, which can take ~ 10 minutes in the **Console view**
+You can view the installation process, which can take ~ 15 minutes in the **Console view** after you have created the server.
 
-![Vultr Installation process01](https://github.com/temp69/magnet-VPS/blob/master/images/Vultr%20Installation%20process01.jpg)
-![Vultr Installation process02](https://github.com/temp69/magnet-VPS/blob/master/images/Vultr%20Installation%20process02.jpg)
+![Vultr Installation process](https://github.com/temp69/magnet-VPS/blob/master/images/ConsoleFull.gif)
 
 Once it finishes it will greet you with a graphical login interface.
 
-### Loggin in
+### Logging in
 
 Due to the fact that the Vultr console is using a different keyboard layout then the one you are used to, I have enabled a onboard keyboard which can be accessed by pressing **F3**
 
@@ -52,7 +53,7 @@ Due to the fact that the Vultr console is using a different keyboard layout then
 - I RECOMMEND ALWAYS USING THE ONBOARD KEYBOARD OR YOU MIGHT END UP NOT BEEING ABLE TO LOG IN
 - ALSO USE IT WHEN ENCRYPTING THE WALLET!!!
 ```
-![Vultr Loggin In](https://github.com/temp69/magnet-VPS/blob/master/images/Vultr%20Loggin%20In.jpg)
+![Vultr Loggin In](https://github.com/temp69/magnet-VPS/blob/master/images/FirstLogIn.gif)
 
 Once logged in the only thing left todo is click the magnet start icon on the top left of the screen.
 

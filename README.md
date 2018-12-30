@@ -48,11 +48,11 @@ Once it finishes it will greet you with a graphical login interface.
 
 ### Logging in
 
-Due to the fact that the Vultr console is using a different keyboard layout then the one you are used to, I have enabled a onboard keyboard which can be accessed by pressing **F3**
+Due to the fact that the Vultr console is using a different keyboard layout then the one you are used to, I have enabled a onboard keyboard which can be accessed by pressing **F3** at the login screen and after loggin in can be found in the start menu.
 
 ```diff
 - I RECOMMEND ALWAYS USING THE ONBOARD KEYBOARD OR YOU MIGHT END UP NOT BEEING ABLE TO LOG IN
-- ALSO USE IT WHEN ENCRYPTING THE WALLET!!!
+- BECAUSE THE KEYBOARD LAYOUT IS NOT CHANGEABLE, ALSO USE IT WHEN ENCRYPTING THE WALLET!!!
 ```
 ![Vultr Loggin In](https://github.com/temp69/magnet-VPS/blob/master/images/FirstLogIn.gif)
 

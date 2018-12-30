@@ -31,7 +31,7 @@ Name it and add the content from **[here](https://raw.githubusercontent.com/temp
 
 - Choose a location
 - Ubuntu 18.04 x64
-- 3.50$ instance (the cheapest with IPv6 only **will not**)
+- 3.50$ instance (the cheapest with IPv6 only **will not work**)
 - Additional Features - Enable IPv6
 - Startup Script - Choose the one you just added
 - Enter a host name and deploy it

@@ -3,7 +3,7 @@
 > Startup script for Vultr VPS, hosting magnet QT wallet.
 
 When using this script you will end up beeing able to run the `magnet QT wallet` inside of the console window of Vultr!
-![Vultr Console](https://github.com/temp69/magnet-VPS/blob/master/images/Vultr%20Console.jpg)
+![Vultr Console](https://github.com/temp69/magnet-VPS/blob/master/images/VultrMagnetBox.gif)
 
 ## Features
 

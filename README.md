@@ -31,7 +31,7 @@ Name it and add the content from **[here](https://raw.githubusercontent.com/temp
 
 - Choose a location
 - Ubuntu 18.04 x64
-- 3.50$ will work
+- 3.50$ instance (the cheapest with IPv6 only **will not**)
 - Additional Features - Enable IPv6
 - Startup Script - Choose the one you just added
 - Enter a host name and deploy it
@@ -66,3 +66,11 @@ You can use a copy paste service from the internet eg.: pastebin
 - Browser (Firefox) / File Manager / Terminal / Onboard keyboard / Text Editor can be found in the **Start menu**
 
 - Hidden files / folders (e.g.: `.mag` folder) can be turned on in File Manager's Option menu
+
+### ToDo's
+
+- Case studie: Deployment of a masternode & stake at same time
+- Case studie: Use the IPv6 address to run an additional wallet instance
+- Workflow for updateing the wallet
+
+If you like this guide(s) drop me some MAGNET, use the [Litemint](https://litemint.com/) wallet and send to **TEmp\*litemint.com**

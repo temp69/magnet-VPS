@@ -67,6 +67,15 @@ You can use a copy paste service from the internet eg.: pastebin
 
 - Hidden files / folders (e.g.: `.mag` folder) can be turned on in File Manager's Option menu
 
+### Compatibility
+
+Recommended is a Vultr VPS with 1GB RAM / 1 vCPU / 20+ GB HDD
+
+- Ubuntu 16.04
+- Ubuntu 17.04
+- Ubuntu 17.10
+- Ubuntu 18.04
+
 ### ToDo's
 
 - Case studie: Deployment of a masternode & stake at same time

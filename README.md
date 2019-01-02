@@ -60,12 +60,20 @@ Once logged in the only thing left todo is click the magnet start icon on the to
 
 ### Additional Information
 
-- You can not use Copy & Paste from your local computer into the console\
-You can use a copy paste service from the internet eg.: pastebin
+You can not use Copy & Paste from your local computer into the console, the VNC service from Vultr prevents this.\
+If you need to transfer e.g.: private key into the VPS i suggest you ssh into it and create a text file with that information, which you later access in the GUI with the text editor.\
+As for transfering files from/to the VPS i suggest using sftp.
 
-- Browser (Firefox) / File Manager / Terminal / Onboard keyboard / Text Editor can be found in the **Start menu**
+The following tools are installed:
 
-- Hidden files / folders (e.g.: `.mag` folder) can be turned on in File Manager's Option menu
+- Browser (Firefox)
+- File Manager
+- X-Terminal
+- Onboard keyboard
+- Text Editor
+- Ubuntu update tool
+
+and can be found in the **Start menu**
 
 ### Compatibility
 

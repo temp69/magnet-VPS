@@ -41,6 +41,7 @@ function installPrerequisits() {
 	apt-get -yq install onboard
 	apt-get -yq install pwgen
 	apt-get -yq install unzip
+	apt-get -yq install update-manager
 	#apt-get -yq install software-properties-common
 	#apt-get -yq install python-software-properties	
 	#add-apt-repository -y ppa:bitcoin/bitcoin
